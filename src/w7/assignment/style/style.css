@@ -203,15 +203,13 @@ img {
   max-width: 1900px;
   width: 90%;
   margin: auto;
-  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .footer-text {
-  margin-right: 80px;
-  width: 100%;
-  flex: 30%;
+  width: 15%;
 }
 
 .footer-title {
@@ -246,4 +244,18 @@ strong {
   line-height: 24px;
 }
 .footer-text-copyright {
+  display: block;
+  justify-content: right;
+}
+
+.copy {
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer-img {
+  width: 138px;
+  margin-bottom: 20px;
+  padding-top: 200px;
 }

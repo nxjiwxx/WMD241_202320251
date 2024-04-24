@@ -118,6 +118,13 @@ body {
   font-weight: 400;
   line-height: 32px;
   color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
 }
 
 .container {

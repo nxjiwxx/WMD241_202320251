@@ -144,11 +144,15 @@ body {
   margin-inline: -0.9375rem;
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 0;
+  flex-basis: 0;
 }
 
 .container-right {
   /* 아이콘 정렬 */
   display: flex;
+  flex-grow: 0;
+  flex-basis: 0;
   padding-right: 15px;
   margin-bottom: 48px;
   min-width: 550px;
@@ -159,6 +163,8 @@ body {
 .container-left {
   /* 아이콘 정렬 */
   display: flex;
+  flex-grow: 0;
+  flex-basis: 0;
   padding-right: 15px;
   margin-bottom: 48px;
   min-width: 550px;
